@@ -89,11 +89,21 @@ button:hover {
 @media screen and (max-width: 768px) {
   input,
   button {
-    font-size: 2vw;
+    font-size: 3vw;
     font-weight: bolder;
   }
   .prompt {
     width: 65vw;
+  }
+  h2 {
+    color: #fff;
+    font-size: 7vw;
+  }
+  .images div {
+    width: 45vw;
+  }
+  button {
+    width: 30%;
   }
 }
 
