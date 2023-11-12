@@ -86,3 +86,14 @@ button:hover {
 .images div img {
   width: 100%;
 }
+@media screen and (max-width: 768px) {
+  input,
+  button {
+    font-size: 2vw;
+    font-weight: bolder;
+  }
+  .prompt {
+    width: 65vw;
+  }
+}
+
